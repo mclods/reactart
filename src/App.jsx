@@ -1,7 +1,16 @@
-import "./App.css";
+import './App.css';
+import Header from './components/Header';
+import AuthInputs from './components/AuthInputs';
 
 function App() {
-  return <h1>React App</h1>;
+  return (
+    <>
+      <Header />
+      <main>
+        <AuthInputs />
+      </main>
+    </>
+  );
 }
 
 export default App;
