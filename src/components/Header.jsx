@@ -35,9 +35,7 @@ function Header() {
     }
 
     @media (min-width: 768px) {
-      & {
-        margin-bottom: 4rem;
-      }
+      margin-bottom: 4rem;
 
       & h1 {
         font-size: 2.25rem;
